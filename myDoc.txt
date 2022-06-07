@@ -1,0 +1,47 @@
+// page 1 : Products page
+//To get all the products available
+>>(Get) https://ecomnodeapi.herokuapp.com/products (live link)
+>>(Get) http://localhost:9800/products  (localhost link)
+//To get products on basis of categories (category : watch, sub_category : analog watch)
+>>(Get) https://ecomnodeapi.herokuapp.com/products_on_category_basis/?category=watches&sub_category=analog%20watch  (live link)
+>>(Get)http://localhost:9800/products_on_category_basis/?category=watches&sub_category=analog%20watch (localhost link)
+//To get products on basis of categories (category : jewellery) and price filter(increasing)
+>>(Get) https://ecomnodeapi.herokuapp.com/category_and_filter/?category=jewellery&hcost=4500&lcost=500  (live link)
+>>(Get) http://localhost:9800/category_and_filter/?category=jewellery&hcost=4500&lcost=500(localhost link)
+//To get products on the cart 
+>>(Get) https://ecomnodeapi.herokuapp.com/cart (live link)
+>>(Get) localhost:9800/cart  (localhost link)
+//To get orders of the customers
+>>(Get) https://ecomnodeapi.herokuapp.com/orderplaced  (live link)
+>>(Get) localhost:9800/orderplaced  (localhost link)
+
+
+
+
+//page 2 : listing page
+//To get products details
+>>(Get) https://ecomnodeapi.herokuapp.com/details/2 (live link)
+>>(get) localhost:9800/details/2  (localhost link)
+
+
+
+//page 3 : cart page
+//To get products on the cart 
+>>(Get) https://ecomnodeapi.herokuapp.com/cart (live link)
+>>(Get) localhost:9800/cart  (localhost link) 
+//Add to cart link with given cartId / productId / quantity
+>>(Put) https://ecomnodeapi.herokuapp.com/addtocart/5/43/3 (live link)
+>>(Put) localhost:9800/addtocart/5/33/2 (localhost link)
+
+
+
+//page 4 : orderplaced page
+//To get orderplaced data
+>>(Get) https://ecomnodeapi.herokuapp.com/orderplaced  (live link)
+>>(Get) localhost:9800/orderplaced  (localhost link)
+//To place order
+>>(Post) https://ecomnodeapi.herokuapp.com/orderplaced (live link)
+>>(Post) localhost:9800/placeorder (localhost link)
+//to cancel orders
+>>(Delete) https://ecomnodeapi.herokuapp.com/deleteOrder/629ee20225564384bd5bb6f8 (live link)
+>>(Delete) localhost:9800/deleteOrder/629b5db153fbbdbcc3d7117c   (localhost link)
